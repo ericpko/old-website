@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
-import './App.css';
+
 
 // Import the router
 import {
@@ -12,6 +12,9 @@ import {
  // Import components
  import Navbar from './components/Navbar';
 
+ // Import pages
+ import Home from './pages/Home';
+
 
 function App() {
    return (
@@ -19,7 +22,7 @@ function App() {
          <Router>
             <Navbar />
             <Switch>
-               // Routes
+               <Route exact path="/" component={Home} />
             </Switch>
          </Router>
       </ThemeProvider>
