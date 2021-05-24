@@ -1,30 +1,25 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+import Container from './Container';
+
 
 const Nav = styled.nav`
-   display: flex;
    background-color: ${props => props.theme.colors.darker};
-   position: relative; /* default is relative */
-   width: 100%;
-`;
-
-const Container = styled.div`
-   width: 960px;
-   margin: auto;
-   position: relative;
+   width: 100vw;
+   max-width: 100%;
+   flex-shrink: 0;
 `;
 
 const Ul = styled.ul`
    display: flex;
    list-style: none;
-   padding-right: 4%;
-   padding-left: 4%;
+   padding: 0;
 `;
 
 const Li = styled.li`
-   padding-left: 2%;
-   padding-right: 2%;
+   padding-left: 1.2rem;
+   padding-right: 1.2rem;
 `;
 
 const LiLeft = styled(Li)`
@@ -33,7 +28,6 @@ const LiLeft = styled(Li)`
 
 const StyledLink = styled(Link)`
    color: ${props => props.theme.colors.white};
-   font-size: 20px;
    text-decoration: none;
    transition: color 0.2s ease-out;
 
