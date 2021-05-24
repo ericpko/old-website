@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const Footer = styled.footer`
    background-color: ${props => props.theme.colors.dark};
    color: white;
-   position: relative;
    width: 100vw;
    max-width: 100%;
    min-height: 350px;
@@ -13,10 +12,6 @@ const Footer = styled.footer`
    flex-shrink: 0;
 `;
 
-// const Container = styled.div`
-//    width: 960px;
-//    margin: auto;
-// `;
 
 // const Footer = () => {
 //    return (

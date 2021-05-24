@@ -18,8 +18,8 @@ const Ul = styled.ul`
 `;
 
 const Li = styled.li`
-   padding-left: 1.2rem;
-   padding-right: 1.2rem;
+   padding-left: 2%;
+   padding-right: 2%;
 `;
 
 const LiLeft = styled(Li)`

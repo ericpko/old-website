@@ -4,12 +4,8 @@ import A from '../components/Hyperlink';
 import Strong from '../components/Strong';
 import Container from '../components/Container';
 import Section from '../components/Section';
+import H2 from '../components/H2';
 
-
-const H2 = styled.h2`
-   margin-top: 4rem;
-   color: ${props => props.theme.colors.darker};
-`;
 
 const Li = styled.li`
    padding-bottom: 5px;
