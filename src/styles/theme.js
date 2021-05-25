@@ -6,6 +6,7 @@ export const theme = {
       lighter: '#373940',         // light blue
       dark: '#282c34',            // dark blue
       darker: '#20232a',          // really dark blue
+      link: '#007acc',            // sky blue
       brand: '#61dafb',           // electric blue
       brandLight: '#bbeffd',
       text: '#1a1a1a',            // very dark grey / black substitute

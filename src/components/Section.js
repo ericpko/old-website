@@ -7,8 +7,9 @@ import styled from 'styled-components';
  * But in Container we use max-width.
  */
 const Section = styled.section`
-   padding: 0 4% 2% 4%; /* shorthands goes clockwise starting from the top */
-   /* width: 960px; */
+   /* shorthands goes clockwise starting from the top */
+   /* padding: 0 0 2% 0; */
+   padding-bottom: 2%;
 `;
 
 export default Section
