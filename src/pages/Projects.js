@@ -6,6 +6,7 @@ import {
 
 import AllProjects from './projects/AllProjects';
 import SPHSim from './projects/SPHSim';
+import BouncingBalls from './projects/BouncingBalls';
 import MassSpring1D from "./projects/MassSpring1D";
 import MassSpring3D from './projects/MassSpring3D';
 
@@ -25,6 +26,7 @@ const Projects = () => {
       <Switch>
          <Route exact path={path} component={AllProjects} />
          <Route path='/projects/2D-SPH-simulation' component={SPHSim} />
+         <Route path='/projects/bouncing-balls' component={BouncingBalls} />
          <Route path={`${path}/1D-mass-spring`} component={MassSpring1D} />
          <Route path={`${path}/3D-mass-spring-system`} component={MassSpring3D} />
       </Switch>

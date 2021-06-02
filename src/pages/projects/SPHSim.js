@@ -14,10 +14,10 @@ const SPHSim = () => {
             <H2>2D Smoothed-Particle Hydrodynamics</H2>
             <p>
                This was the final project I chose for my physics-based animation course at UofT.
-               Check out my short SIGGRAPH paper &#030;
+               Check out my SIGGRAPH brief &#030;
                <Strong><A href={SPHSimPdf} target="_blank">here</A></Strong>&#030;
-               where you can find all the details from this project and below is a demo
-               of the result!
+               where you can find the in-depth details from this project. Below I've
+               provided a simulation demo of the result written in MATLAB!
             </p>
             <img src={SPHdemo} alt="Short gif showing the results of the SPH simulation" />
          </section>

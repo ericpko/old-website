@@ -1,17 +1,15 @@
-
 import Container from '../../components/Container';
 import H2 from '../../components/H2';
 
-
-
-const MassSpring3D = () => {
+const AWeatheryJourney = () => {
    return (
       <Container>
-         <section>
-            <H2>3D Mass Spring System</H2>
-         </section>
+         <H2>A Weathery Journey</H2>
+         <p>
+            Blah!
+         </p>
       </Container>
    )
 }
 
-export default MassSpring3D
+export default AWeatheryJourney
