@@ -3,7 +3,7 @@
 ## Notes to future self
 I have two branches: `main` and `gh-pages`.
 
-Under repo settings>pages, I changed the Source to build the site from the gh-pages branch.
+Under repo settings>pages, I changed the Source to build the site from the `gh-pages` branch.
 
 In my package.json file, I have added the line:
 `"deploy": "gh-pages -b gh-pages -d build"`
