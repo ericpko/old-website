@@ -52,18 +52,18 @@ const Home = () => {
                I recently graduated from the University of Toronto, St. George (downtown)
                campus with an HBSc in <Strong>Computer Science</Strong>.
                Throughout my program I experimented with a wide range of different topics
-               in CS and I found myself most strongly drawn to the field of &#030;
-               <Strong>Computer Graphics</Strong>. More specifically, some of my favorite
+               in CS and I found myself most strongly drawn to the field 
+               of <Strong>Computer Graphics</Strong>. More specifically, some of my favorite
                topics in CG include physics-based simulation, animation, and different
                rendering techniques. I look forward to contributing to this important field
                of Computer Science, both academically and in the industry.
             </p>
             <p>
-               I'm also eager to explore more about <Strong>modern web technologies</Strong>, &#030;
+               I'm also eager to explore more about <Strong>modern web technologies</Strong>,&nbsp;
                <Strong>game design</Strong>, and <Strong>A.I.</Strong> research.
                Throughout my studies, I have aquired great problem solving skills and have gained 
                experience with a variety of programming languages and software tools. 
-               You can find a link to my Github page &#030;
+               You can find a link to my Github page&nbsp;
                <Strong><A href="https://github.com/ericpko" target="_blank">here</A></Strong>,
                or check out my <Strong><A href={CV} target="_blank">resume</A></Strong> for 
                more information.

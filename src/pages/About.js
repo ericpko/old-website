@@ -26,14 +26,14 @@ const About = () => {
             <p>
                The <Strong>Programming on the Web</Strong> course that I took at UofT focused
                mostly on vanilla Javascript, and backend server-side programming
-               using &#030;
-               <Strong><A href="https://expressjs.com" target="_blank">Express</A></Strong>&#030;
-               and <Strong><A href="https://mongodb.com" target="_blank">MongoDB</A></Strong>.
+               using&nbsp;
+               <Strong><A href="https://expressjs.com" target="_blank">Express</A></Strong> and&nbsp;
+               <Strong><A href="https://mongodb.com" target="_blank">MongoDB</A></Strong>.
                This gave me a nice
                introduction to web development, but left me wanting to learn more about many of the
                modern web
                development technologies. This leads me into one of my motivations for creating this
-               website&mdash;to learn &#030;
+               website&mdash;to learn&nbsp;
                <Strong><A href="https://reactjs.org" target="_blank">React</A></Strong>.
                Although I have clearly just scratched the
                surface of the React library, I feel as though I have suceeded in accomplishing this
