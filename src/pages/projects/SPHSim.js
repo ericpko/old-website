@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Container from '../../components/Container';
 import H2 from '../../components/H2';
 import SPHSimPdf from '../../pdfs/SPH-sim.pdf';
