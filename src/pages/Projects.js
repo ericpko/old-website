@@ -6,6 +6,7 @@ import {
  } from "react-router-dom";
 
 import AllProjects from './projects/AllProjects';
+import RayTracer from './projects/RayTracer';
 import SPHSim from './projects/SPHSim';
 import BouncingBalls from './projects/BouncingBalls';
 
@@ -25,6 +26,7 @@ const Projects = () => {
    return (
       <Switch>
          <Route exact path={path} component={AllProjects} />
+         <Route path={`${path}/raytracer`} component={RayTracer} />
          <Route path='/projects/2D-SPH-simulation' component={SPHSim} />
          <Route path={`${path}/bouncing-balls`} component={BouncingBalls} />
       </Switch>

@@ -63,6 +63,19 @@ const AllProjects = () => {
          </Section>
 
          <Post>
+            <H3><StyledLink to={`${url}/raytracer`}>Ray Tracer</StyledLink></H3>
+            <P>
+               A tiny
+               <Strong>
+                  <A href="https://github.com/ericpko/raytracer" 
+                     target="_blank">
+                        &nbsp;ray tracer&nbsp;
+                  </A>
+               </Strong>
+               I created as a way to learn Rust!
+            </P>
+         </Post>
+         <Post>
             <H3><StyledLink to={`${url}/2D-SPH-simulation`}>2D Smoothed-Particle Hydrodynamics</StyledLink></H3>
             <P>
                Simulation of the classical dam break using smoothed-particle hydrodynamics (SPH) 
