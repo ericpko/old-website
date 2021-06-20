@@ -63,6 +63,28 @@ const AllProjects = () => {
          </Section>
 
          <Post>
+            <H3>
+               <StyledA href="https://ericpko.github.io/loop/"
+                        target="_blank">
+                           Loop
+               </StyledA>
+            </H3>
+            <P>
+               I started somewhat of a documentation website for common for-loop patterns.
+               I noticed during my undergrad that some general looping patterns kept 
+               coming up in different classes. For example, when dealing with images,
+               one typically stores a buffer of the image inside a 1-dimensional array,
+               and accessing each subpixel requires a specific 2D-to-1D index mapping.
+               This example isn't particularly difficult to figure out, but it can quickly
+               become confusing when dealing with higher dimensional tensors or voxels.
+               Ergo, I've decided to document some of these common (or even not-so-common,
+               but might be useful in some other context) for-loops. It would be amazing
+               if anyone found it useful or even contributed, but at the end of the day,
+               it's a nice way for myself to reinforce my own understanding of some of
+               these more challenging concepts.
+            </P>
+         </Post>
+         <Post>
             <H3><StyledLink to={`${url}/raytracer`}>Ray Tracer</StyledLink></H3>
             <P>
                A tiny
